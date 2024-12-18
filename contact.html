@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Technolabas0</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Technolabas0</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="contact.html">Contato</a></li>
+                <li><a href="sign-up.html">Cadastro</a></li>
+                <li><a href="sign-in.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h2>Entre em Contato</h2>
+            <form id="contactForm">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="contact-info">
+                <h3>Informações de Contato</h3>
+                <p>Email: <a href="mailto:tecnolabs0@gmail.com">tecnolabs0@gmail.com</a></p>
+                <p>WhatsApp: <a href="https://wa.me/258846698250" target="_blank">+258 865190710</a></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Technolabas0. Todos os direitos reservados.</p>
+    </footer>
+    <script src="scripts/form.js"></script>
+</body>
+</html>
